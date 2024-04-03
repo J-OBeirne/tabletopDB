@@ -1,0 +1,48 @@
+:root {
+  --page-bg: #212;
+  --text-color: #ffe;
+  --accent-color: #f48;
+  --accent-alt: #4f8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: var(--accent-alt);
+  text-decoration: none;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--page-bg);
+
+  display: grid;
+  grid-template-rows: 0.5fr 2fr 0.5fr;
+  min-height: 100vh;
+}
+
+body > * {
+  width: 100vw;
+  height: 100%;
+
+  padding: 5vmin;
+}
+
+header {
+  color: var(--accent-color);
+}
+
+footer {
+  font-weight: 900;
+  font-style: italic;
+
+  color: var(--page-bg);
+  background-color: var(--accent-color);
+
+  border-radius: 1em 0 0 0;
+}
