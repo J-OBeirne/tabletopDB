@@ -16,4 +16,4 @@ For Command Prompt:
 And to start the server:
 > C:\path\to\repo> python server.py
 
-Then click on the provided link, something like http://127.0.0.1:5000/
+Then goto the address provided by the server, something like: http://127.0.0.1:5000/
