@@ -1,4 +1,4 @@
-function loadCharacters() {
+function LoadCharacters() {
   const request = new XMLHttpRequest();
   request.open("GET", "/characters", true);
 
