@@ -1,5 +1,8 @@
 {
-    "editor.rulers": [
-        {"column": 80, "color": "#f004", "rule": "^\n+"}
-    ]
+  "editor.rulers": [{ "column": 80, "color": "#f004", "rule": "^\n+" }],
+  "cSpell.words": [
+    "Pyinstaller",
+    "TTRPGs",
+    "venv"
+  ]
 }
