@@ -8,7 +8,7 @@ function LoadCharacters() {
       const list = document.getElementById("characters");
 
       list.innerHTML = characters
-        .map((character) => `<li><a>load</a> ${character.Name}</li>`)
+        .map((character) => `<li><a>load</a> ${character.Name}.</li>`)
         .join("");
     }
   };
