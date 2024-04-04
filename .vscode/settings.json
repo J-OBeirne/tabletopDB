@@ -2,6 +2,7 @@
   "editor.rulers": [{ "column": 80, "color": "#f004", "rule": "^\n+" }],
   "cSpell.words": [
     "Pyinstaller",
+    "Rakashan",
     "TTRPGs",
     "venv"
   ]

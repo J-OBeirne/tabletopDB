@@ -46,6 +46,10 @@ def download_characters():
             },
         )
 
+    # remove these when done testing
+    filename = "characters_test.json"
+    filepath = os.path.join("data", filename)
+
     if request.method == "POST":
         data = request.get_json()
         with open(filepath, "r", encoding="utf-8") as file:

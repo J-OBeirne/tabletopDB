@@ -1,8 +1,10 @@
 :root {
-  --page-bg: #212;
-  --text-color: #ffe;
-  --accent-color: #f48;
-  --accent-alt: #4f8;
+  --light: #ffe;
+  --dark: #001;
+
+  --orange: #f71;
+  --purple: #80e;
+  --green: #0f8;
 }
 
 * {
@@ -13,14 +15,14 @@
 }
 
 a {
-  color: var(--accent-alt);
+  color: var(--purple);
   text-decoration: none;
 }
 
 body {
-  color: var(--text-color);
-  background-color: var(--page-bg);
-
+  overflow-x: hidden;
+  color: var(--light);
+  background: var(--dark);
   display: grid;
   grid-template-rows: 0.5fr 2fr 0.5fr;
   min-height: 100vh;
@@ -30,19 +32,18 @@ body > * {
   width: 100vw;
   height: 100%;
 
-  padding: 5vmin;
+  padding: 10vh 10vw;
 }
 
 header {
-  color: var(--accent-color);
+  color: var(--orange);
 }
 
 footer {
   font-weight: 900;
   font-style: italic;
 
-  color: var(--page-bg);
-  background-color: var(--accent-color);
+  color: var(--green);
 
   border-radius: 1em 0 0 0;
 }
